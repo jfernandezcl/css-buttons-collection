@@ -5,7 +5,7 @@ function App() {
     <>
       <h1>Button collection</h1>
       <div>
-        <button>Button 1</button>
+        <button className="button-1">Button 1</button>
       </div>
     </>
   );
