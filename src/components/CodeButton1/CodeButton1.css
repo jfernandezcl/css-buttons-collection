@@ -24,3 +24,7 @@
     border: 2px solid #025b97;
     box-shadow: 2px 5px 0 #025b97;
 }
+
+.tab-button{
+    color: red;
+}
