@@ -2,8 +2,7 @@
 .button-1{
     display: flex;
     align-items: center;
-    text-align: right;
-
+    gap: 12px;
 
     border: none;
     background-color: #007ccd;
@@ -13,14 +12,11 @@
     font-size: 16px;
     padding: 12px 32px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    cursor: pointer;
 }
 
 .button-icon{
     display: flex;
-    text-align: left;
-
     width: 32px;
     height: 32px;
-    margin-right: 8px;
 }
