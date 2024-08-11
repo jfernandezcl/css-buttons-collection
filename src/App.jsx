@@ -6,8 +6,8 @@ function App() {
       <h1>Button collection</h1>
       <div>
         <button className="button-1">
-          Button 1
-          <img src="src/images/uiandroid.png" />
+          <span className="button-text">Button-1</span>
+          <img src="src/images/uiandroid.png" className="button-icon" />
         </button>
       </div>
     </>
