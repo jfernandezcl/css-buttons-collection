@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CopyBlock, dracula } from "react-code-blocks";
 import "./Button1.css";
+import "../../styles/re-styles.css";
 import icon from "../../images/uiandroid.png";
 
 const Button1 = () => {
