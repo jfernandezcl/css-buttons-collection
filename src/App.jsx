@@ -1,14 +1,14 @@
+import React from "react";
 import "./App.css";
+import CodeButton1 from "./components/CodeButton1/CodeButton1.jsx";
 
 function App() {
   return (
     <>
-      <h1>Button collection</h1>
+      <h1>Button Collection</h1>
       <div>
-        <button className="button-1">
-          <img src="src/images/uiandroid.png" className="button-icon" />
-          Button-1
-        </button>
+        <CodeButton1 />
+        {/* Puedes seguir agregando más botones aquí */}
       </div>
     </>
   );
