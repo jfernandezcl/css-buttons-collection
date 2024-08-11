@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { CopyBlock, dracula } from "react-code-blocks";
-import "./CodeButton1.css";
+import "./Button1.css";
 import icon from "../../images/uiandroid.png";
 
 const CodeButton1 = () => {
@@ -24,7 +24,7 @@ function App() {
 }
 
 export default App;
-  `;
+`;
 
   const cssCode = `
 .button-1{

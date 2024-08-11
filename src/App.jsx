@@ -1,6 +1,5 @@
 import React from "react";
-import "./App.css";
-import CodeButton1 from "./components/CodeButton1/CodeButton1.jsx";
+import CodeButton1 from "./components/CodeButton1/Button1.jsx";
 
 function App() {
   return (
