@@ -3,7 +3,7 @@ import { CopyBlock, dracula } from "react-code-blocks";
 import "./Button1.css";
 import icon from "../../images/uiandroid.png";
 
-const CodeButton1 = () => {
+const Button1 = () => {
   const [showCode, setShowCode] = useState(false);
   const [activeTab, setActiveTab] = useState("html");
 
@@ -108,4 +108,4 @@ export default App;
   );
 };
 
-export default CodeButton1;
+export default Button1;
