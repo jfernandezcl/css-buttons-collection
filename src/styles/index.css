@@ -4,4 +4,7 @@ body{
     padding: 16px;
 }
 
-.title-main
+.title-main{
+  display: flex;
+  justify-content: center;
+}
