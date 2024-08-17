@@ -1,5 +1,7 @@
-import { useState } from "react"
-
+import React, { useState } from "react"
+import { CopyBlock, dracula } from "react-code-blocks";
+import "../../styles/re-styles.css";
+import "./Button2.css"
 
 
 const Button2 = () => {
@@ -31,6 +33,5 @@ export default App;
             <button></button>
         </div>
     )
-
+};
 export default Button2;
-}
