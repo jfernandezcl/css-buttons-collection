@@ -2,11 +2,11 @@ import React, { useState } from "react"
 import { CopyBlock, dracula } from "react-code-blocks";
 import "../../styles/re-styles.css";
 import "./Button2.css"
-
+import icon from "../../images/iconDownload.png";
 
 const Button2 = () => {
-    const [showCode, setShowCode] = useState(false);
-    const [activeTab, setActiveTab] = useState('html');
+    const [showCode2, setShowCode2] = useState(false);
+    const [activeTab2, setActiveTab2] = useState('html');
 
     const htmlCode = `
 import "./App.css";
@@ -30,28 +30,28 @@ export default App;
 
     return (       
         <div>
-            <button className="button-2" onClick={() => setShowCode(!showCode)}>
+            <button className="button-2" onClick={() => setShowCode2(!showCode2)}>
                 <img src={icon} className="button-icon-2" alt="icon" />
-                {showCode ? "Ocultar código" : "Mostrar código"}
+                {showCode2 ? "Ocultar código" : "Mostrar código"}
             </button>
 
-            {showCode && (
+            {showCode2 && (
                 <div>
                     <div>
                         <button
-                            className={`tab-button ${activeTab === "html" ? "active" : ""}`}
-                            onClick={() => setActiveTab("html")}
+                            className={`tab-button ${activeTab2 === "html" ? "active" : ""}`}
+                            onClick={() => setActiveTab2("html")}
                         >
                             HTML
                         </button>
                         <button
-                            className={`tab-button ${activeTab === "css" ? "active" : ""}`}
+                            className={`tab-button ${activeTab2 === "css" ? "active" : ""}`}
                             onClick={() => ("css")}
                         >
                             CSS
                         </button>
                     </div>
-                    {activeTab === "html" && (
+                    {activeTab2 === "html" && (
                         <div>
                             <CopyBlock
                                 text={htmlCode}
@@ -63,7 +63,7 @@ export default App;
                         </div>
                     )}
 
-                    {activeTab === "css" && (
+                    {activeTab2 === "css" && (
                         <div>
                             <CopyBlock
                                 text={cssCode}

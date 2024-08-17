@@ -8,10 +8,9 @@ function App() {
       <h1 className="title-main">Button Collection</h1>
       <div>
         <Button1 />
-      </div>
-      <div>
         <Button2 />
       </div>
+      
     </>
   );
 }
