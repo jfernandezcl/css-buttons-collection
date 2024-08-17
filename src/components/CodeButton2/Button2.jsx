@@ -26,5 +26,11 @@ export default App;
 `;
     const cssCode = ``;
 
+    return (       
+        <div>
+            <button></button>
+        </div>
+    )
 
+export default Button2;
 }
