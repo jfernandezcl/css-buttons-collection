@@ -34,7 +34,49 @@ export default App;
                 <img src={icon} className="button-icon-2" alt="icon" />
                 {showCode ? "Ocultar código" : "Mostrar código"}
             </button>
+
+            {showCode && (
+                <div>
+                    <div>
+                        <button
+                            className={`tab-button ${activeTab === "html" ? "active" : ""}`}
+                            onClick={() => setActiveTab("html")}
+                        >
+                            HTML
+                        </button>
+                        <button
+                            className={`tab-button ${activeTab === "css" ? "active" : ""}`}
+                            onClick={() => ("css")}
+                        >
+                            CSS
+                        </button>
+                    </div>
+                    {activeTab === "html" && (
+                        <div>
+                            <CopyBlock
+                                text={htmlCode}
+                                language="html"
+                                startingLineNumber={true}
+                                theme={dracula}
+                                wrapLongLines
+                            />
+                        </div>
+                    )}
+
+                    {activeTab === "css" && (
+                        <div>
+                            <CopyBlock
+                                text={cssCode}
+                                language="css"
+                                startingLineNumber={true}
+                                theme={dracula}
+                                wrapLongLines
+                            />
+                        </div>
+                    )}
+                </div>
+            )}
         </div>
-    )
+    );
 };
 export default Button2;
