@@ -16,7 +16,7 @@ function App() {
     <>
       <div>
         <button className="button-1">
-          <img src="src/images/uiandroid.png" className="button-icon" />
+          <img src="src/images/iconDownload.png" className="button-icon" />
           Button-2
         </button>
       </div>
