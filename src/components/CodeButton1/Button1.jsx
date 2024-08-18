@@ -87,7 +87,7 @@ export default App;
                 language="html"
                 showLineNumbers={true}
                 theme={dracula}
-                wrapLines
+                wrapLongLines
               />
             </div>
           )}
@@ -99,7 +99,7 @@ export default App;
                 language="css"
                 showLineNumbers={true}
                 theme={dracula}
-                wrapLines
+                wrapLongLines
               />
             </div>
           )}
