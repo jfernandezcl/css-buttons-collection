@@ -72,7 +72,7 @@ export default App;
                         </button>
                         <button
                             className={`tab-button ${activeTab2 === "css" ? "active" : ""}`}
-                            onClick={() => ("css")}
+                            onClick={() => setActiveTab2("css")}
                         >
                             CSS
                         </button>
