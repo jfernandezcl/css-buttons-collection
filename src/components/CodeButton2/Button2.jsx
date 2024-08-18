@@ -62,7 +62,7 @@ export default App;
             </button>
 
             {showCode2 && (
-                <div>
+                <div style={{ marginTop: "20px" }}>
                     <div>
                         <button
                             className={`tab-button ${activeTab2 === "html" ? "active" : ""}`}
