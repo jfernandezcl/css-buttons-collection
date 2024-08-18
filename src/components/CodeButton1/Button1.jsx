@@ -60,7 +60,7 @@ export default App;
     <div>
       <button className="button-1" onClick={() => setShowCode(!showCode)}>
         <img src={icon} className="button-icon" alt="icon" />
-        {showCode ? "Ocultar Código" : "Mostrar Código"}
+        {showCode ? "Ocultar código" : "Mostrar código"}
       </button>
 
       {showCode && (
