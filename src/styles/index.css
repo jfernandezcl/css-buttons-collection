@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
+  margin-bottom: 80px;
 
   font-family: 'Arial', sans-serif;
 
