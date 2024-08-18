@@ -1,3 +1,8 @@
+.button-2 {
+    display: flex;
+    border: none;
+}
+
 .button-icon-2 {
     display: flex;
     width: 32px;
