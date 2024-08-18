@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-top: 32px;
 
     border: none;
     border-radius: 4px;
