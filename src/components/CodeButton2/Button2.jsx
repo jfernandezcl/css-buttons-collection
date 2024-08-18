@@ -17,7 +17,7 @@ function App() {
       <div>
         <button className="button-1">
           <img src="src/images/uiandroid.png" className="button-icon" />
-          Button-1
+          Button-2
         </button>
       </div>
     </>
@@ -26,7 +26,33 @@ function App() {
 
 export default App;
 `;
-    const cssCode = ``;
+    const cssCode = `
+.button-2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to right, red 34%, white 34%);
+
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.button-icon-2 {
+    display: flex;
+    width: 32px;
+    height: 32px;
+}
+
+.button-2:hover {
+    border: 2px solid black;
+}
+`;
 
     return (       
         <div>
