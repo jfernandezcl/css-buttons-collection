@@ -1,7 +1,9 @@
+import "./Button3.css"
+
 const Button3 = () => {
     return (
         <div>
-            <button>Button-3</button>
+            <button className="button-3">Button-3</button>
 
         </div>
     )
