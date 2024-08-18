@@ -1,6 +1,9 @@
 const Button3 = () => {
     return (
-        <div></div>
+        <div>
+            <button>Button-3</button>
+
+        </div>
     )
 }
 
