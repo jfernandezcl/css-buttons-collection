@@ -1,5 +1,7 @@
 const Button4 = () => {
   return (
-    <div></div>
+    <div>
+      <button>Enviar</button>
+    </div>
   )
 }
